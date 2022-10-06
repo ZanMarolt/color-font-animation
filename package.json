@@ -1,0 +1,22 @@
+{
+  "name": "variable-font-simple-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "serve": "node run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZanMarolt/variable-font-example.git"
+  },
+  "author": "ZanMarolt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZanMarolt/variable-font-example/issues"
+  },
+  "homepage": "https://github.com/ZanMarolt/variable-font-example#readme",
+  "dependencies": {
+    "live-server": "^1.2.2"
+  }
+}

@@ -1,0 +1,45 @@
+* {
+  font-family: "Nabla";
+}
+
+:root {
+  --color: red;
+}
+
+
+html {
+  background-color: #1E1E1E;
+  padding: 5rem;
+}
+
+.wrapper {
+  position: relative;
+}
+
+@font-palette-values --MyColor {
+  font-family: Nabla;
+  base-palette: 2;
+}
+
+@font-palette-values --OverlayColor {
+  font-family: Nabla;
+  base-palette: 2;
+  override-colors: 1 red;
+}
+
+h1 {
+  font-family: "Nabla";
+  font-size: 10rem;
+  font-palette: --MyColor;
+  transition: font-palette 2s ease-in-out;
+}
+
+h1#overlay {
+  position: absolute;
+  margin: 0;
+  left: 0;
+  top: 0;
+  font-palette: --OverlayColor;
+  opacity: 0.5
+}
+
